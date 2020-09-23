@@ -14,17 +14,18 @@ class Author
   
   def add_post(pos)
     pos.author = self 
-    @@post_count
+    @@post_count += 1 
   end 
   
   
   def add_post_by_title(post_title)
     pos = Song.new(post_title)
     add_post(pos)
+    @@post_count += 1 
   end 
   
   def self.post_count 
-    @@all = posts 
+    @@post_count 
   end 
   
 end
