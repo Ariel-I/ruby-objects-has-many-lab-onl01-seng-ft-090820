@@ -17,9 +17,5 @@ class Song
      @@all
    end 
    
-   def song_artist(artist_obj)
-    @artist << artist_obj 
-    artist_obj.song = self 
-  end
   
 end 
