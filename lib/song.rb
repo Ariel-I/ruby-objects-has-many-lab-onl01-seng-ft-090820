@@ -6,6 +6,12 @@ class Song
    
    def initialize(name)
      @name = name 
+     save
+   end 
+   
+   def save
+     @@all << self
+   end 
    
    def song_artist(artist_obj)
     @artist << artist_obj 
