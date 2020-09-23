@@ -2,7 +2,7 @@ class Song
   
    attr_accessor :title, :artist
    
-   @@all 
+   @@all = []
    
    def song_artist(artist_obj)
     @artist << artist_obj 
