@@ -10,10 +10,6 @@ class Post
      save
    end 
    
-   def title(post_title)
-     post_title = @title
-   end 
-   
    def save
      @@all << self
    end 
@@ -26,9 +22,5 @@ class Post
      self.author.name 
    end 
   
-  def post_author(author_obj)
-    @author << author_obj 
-    author_obj.post = self 
-  end
   
 end 
