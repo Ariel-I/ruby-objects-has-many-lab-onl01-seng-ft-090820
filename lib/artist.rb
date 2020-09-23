@@ -13,7 +13,7 @@ class Artist
   end 
   
   def songs 
-    @songs
+    Song.all.collect 
   end 
   
 end 
