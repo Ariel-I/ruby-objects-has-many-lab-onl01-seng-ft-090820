@@ -13,7 +13,7 @@ class Artist
   end 
   
   def songs 
-    Song.all.collect 
+    Song.all.select {
   end 
   
 end 
