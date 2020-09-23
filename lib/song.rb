@@ -19,7 +19,7 @@ class Song
    
    def artist_name(name_obj)
     @artist << name_obj 
-    artist_obj.song = self 
+    name_obj.song = self 
   end
   
 end 
