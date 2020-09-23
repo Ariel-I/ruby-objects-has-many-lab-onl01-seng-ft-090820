@@ -9,8 +9,8 @@ class Post
      save
    end 
    
-   def title=(post_title)
-     @title = post_title
+   def title=(title)
+     @title = title
    end 
    
    def title
