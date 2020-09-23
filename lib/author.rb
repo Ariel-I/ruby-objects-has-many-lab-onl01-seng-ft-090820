@@ -2,14 +2,16 @@ class Author
   
   @@post_count = 0
   
-  attr_accessor :name,  
+  attr_accessor :name
   
+   @@post_count = 0
+   
   def initialize(name)
     @name = name
   end 
   
   def posts 
-    Song.all.select {|posts| posts.author == self}
+    Post.all.select {|posts| posts.author == self}
   end
   
   def add_post(posts)
