@@ -11,7 +11,7 @@ class Post
    end 
    
    def title(post_title)
-     @title = post_title
+     post_title = @title
    end 
    
    def save
