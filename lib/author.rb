@@ -17,7 +17,7 @@ class Author
   
   def add_post_by_title(post_title)
     posts = Song.new(post_title)
-    add_posts(posts)
+    add_post(posts)
   end 
   
   def self.post_count 
