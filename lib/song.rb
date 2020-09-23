@@ -13,6 +13,10 @@ class Song
      @@all << self
    end 
    
+   def self.all 
+     @@all
+   end 
+   
    def song_artist(artist_obj)
     @artist << artist_obj 
     artist_obj.song = self 
