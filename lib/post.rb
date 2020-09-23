@@ -17,8 +17,8 @@ class Post
      @@all
    end 
    
-   def artist_name
-     self.artist.name 
+   def author_name
+     self.author.name 
    end 
   
   def post_author(author_obj)
