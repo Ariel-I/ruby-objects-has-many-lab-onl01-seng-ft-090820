@@ -1,8 +1,11 @@
 class Song 
   
-   attr_accessor :title, :artist
+   attr_accessor :name, :artist
    
    @@all = []
+   
+   def initialize(name)
+     @name = name 
    
    def song_artist(artist_obj)
     @artist << artist_obj 
