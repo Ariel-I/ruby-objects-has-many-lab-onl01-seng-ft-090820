@@ -10,6 +10,10 @@ class Post
      save
    end 
    
+   def title(post_title)
+     @title = post_title
+   end 
+   
    def save
      @@all << self
    end 
